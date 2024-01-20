@@ -1,8 +1,8 @@
 {
   "scripts":{
     "start" : "vite",
-    "predeploy":"npm run start",
-    "deploy" : "gh-pages -d start"
+    "predeploy":"npm run deploy",
+    "deploy" : "gh-pages -d deploy"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.5",
